@@ -1,2 +1,22 @@
 # Python virtual environment
 .venv/
+
+# ===== Large generated RAG artifacts =====
+embeddings/
+chunks/
+normalized/
+data/loc_papers/
+
+# FAISS & vector DB
+*.faiss
+*.index
+
+# Large JSONL outputs
+*.jsonl
+
+# Python venv
+.venv/
+venv/
+
+# Cache
+__pycache__/
